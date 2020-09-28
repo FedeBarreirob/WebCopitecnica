@@ -1,0 +1,88 @@
+body{
+   background-color: white;
+   max-width: 100%;
+   max-height: 100%;
+   margin:0;
+   padding: 0px;
+   font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: black;
+}
+
+/* Barra de navegacion*/
+
+#pre{
+    
+}
+ #navegacion{
+     
+     height: 15%;
+     text-align: right;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+ }
+ #logo{
+    float:left ; 
+     height: 82%;
+    width: 150px;
+    display: block;
+     top: -20px;
+   position: relative;
+   left: 15px;
+
+}
+ .opciones{
+    border-bottom: 5px solid #915a5d; 
+    position: relative;
+ }
+.opciones  ul li{
+    align-items: center;
+    color: black;
+    position:relative;
+}
+.opciones ul a {
+    display:block;
+    color: black;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+.opciones ul li ul li{
+float: left;
+}
+.opciones ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+.opciones ul{
+   
+}
+.opciones ul ul li{
+    float: none;
+   background-color: white;
+  
+}
+.opciones ul li:hover > ul {
+    display:block;
+}
+#navegacion li{
+     display: inline-block;
+     font-size: 25px;
+     margin-top: 15PX;
+     margin-right: 50px;
+   
+    
+ }                                                                             
+#navegacion a{
+   text-decoration: none;
+    
+    
+}

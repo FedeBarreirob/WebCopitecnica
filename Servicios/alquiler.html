@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="diseñoalquiler.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Barra de navegacion  -->
+<div class="barra">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href=""><img id="brand-image"  src="C:\Users\fedeb\Documents\Proyectos\Copitecnica\imagenes\logoreal.jpg" alt=""> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ml-auto" >
+        <li class="nav-item active">
+          <a class="nav-link" href="C:\Users\fedeb\Documents\Proyectos\Copitecnica\principal.html">Inicio </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="C:\Users\fedeb\Documents\Proyectos\Copitecnica\Servicios\alquiler.html">Servicio</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Impresoras</a>
+            <a class="dropdown-item" href="#">Multifunciones</a>
+            
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="C:\Users\fedeb\Documents\Proyectos\Copitecnica\Contacto\contacto.html">Contacto</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+</div>
+
+<br>
+<div id="contenedorImagenes" style="border: 5px outset rgb(180, 180, 180);height: 1200px;" >
+  <h3>Multifunciones mas solicitadas </h3>  <br> <br> <br>
+   <div class="contenedor"> <img class="imagenes" src="C:\Users\fedeb\Documents\Proyectos\Copitecnica\imagenes\brother5650.png" alt=""></div>
+   <br>
+  <img class="imagenes" src="C:\Users\fedeb\Documents\Proyectos\Copitecnica\imagenes\lexmark517corregida.png" alt=""> <br>
+  <img class="imagenes" src="C:\Users\fedeb\Documents\Proyectos\Copitecnica\imagenes\toshibanegra.png" alt="">
+
+</div>
+
+<div id="servicio" style="margin-left:15px; margin-top: 100px;">
+  <div id="descr">
+    <h2 style="margin-left: 7%;" >Servicio de alquiler</h2><br><br>
+    <p style="font-size:25px;margin-left: 25px;"> Nuestra empresa se dedica al servicio de alquiler desde hace mas de 30 años, ofreciendo una amplia cantidad de marcas y modelos variando segun su necesidad.
+     <br> Nacidos desde San Francisco, Córdoba, logramos expandirnos por el pais durante todos estos años manteniendo a nuestros clientes satisfechos gracias a nuestro dedicado trabajo.
+     <br> Si te interesa conocer mas sobre este servicio, a continuacion podés rellenar el formulario para que te contactemos.
+     
+    
+    </p><br><br><br>
+       
+  </div>
+ 
+
+  <br>
+  
+    <div id="aqui">
+      <form style="margin-left: 50px;" id="formulario">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Nombre</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="">
+          </div>
+          <div style="margin-left: -20%;" class="form-group col-md-6">
+            <label for="inputPassword4">Apellido</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Telefono</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="">
+          </div>
+        </div>
+        <br>
+       <div class="form-inline">
+        <div class="form-group">
+          <label  for="inputAddress">Provincia</label>
+          <input style="width: 275px;margin-left: 25px;" type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+          <label style="margin-left:50px" for="inputAddress">Ciudad</label>
+          <input style="width: 275px;margin-left: 25px;" type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+          <label style="margin-left:50px" for="inputAddress">Codigo Postal</label>
+          <input style="width: 150px;margin-left: 25px;" type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+       </div>
+         <br>
+        
+        <div class="form-group">
+          <label for="inputAddress2">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Correo electronico</label>
+            <input type="email" class="form-control" id="inputCity">
+          </div>
+        </div>
+        <label for="inputAdress">Necesita el servicio para negocio o uso personal? Nosotros le recomendaremos la mas adecuada segun su necesidad</label>
+        <textarea style="width: 80%;" class="form-control" rows="3"></textarea>
+        <br>
+        <button type="button" class="btn btn-dark">Aceptar</button>
+      </form>
+    </div>
+  
+</div>
+
+
+</body>
+</html>
