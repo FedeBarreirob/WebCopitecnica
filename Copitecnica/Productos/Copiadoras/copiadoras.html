@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multifunciones</title>
+    <link rel="stylesheet" href="..\..\diseño.css">
+    <script src="..\..\codigo.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Inconsolata&display=swap');
+      *{
+        font-family: 'DM Sans', sans-serif !important;
+      }
+      
+      </style>
+    <link rel="stylesheet" href="estilocopiadoras.css">
+    <!-- bootstrap--> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" media="only screen and (max-width: 768px)" href="..\diseño.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+    
+ <!-- Barra de navegacion  -->
+
+ <nav  class="navbar navbar-expand-lg  ">
+   
+  <a class="navbar-brand" href="#"  ><img src="..\..\imagenes\nuevodiarecort.png"   id="imgdia"  alt=""> 
+    <img src="..\..\imagenes\nuevonocherecort.png" id="imgnocturna" style="display: none;" alt="">
+    </a>
+
+
+<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav  ml-auto" >
+    <li class="nav-item active">
+      <a class="nav-link" href="..\principal.html">Inicio </a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="..\Servicios\alquiler.html">Servicio</a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Productos
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="..\Productos\IMPRESORAS\impresoras.html">Impresoras</a>
+        <a class="dropdown-item" href="..\Productos\Copiadoras\copiadoras.html">Multifunciones</a>
+        
+      </div>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link " href="..\Contacto\contacto.html">Contacto</a>
+    </li>
+    
+    <li class="nav-item active">
+      <button id="botonTema" style="font-size: 20px;background: transparent;border: 0;" onclick="cambiarModo();cambiarImagen();cambiarlogo()" >
+       
+        <img src="..\..\imagenes\modo\dom.png" id="mododia" style="width: 30px;display: none;" alt="">
+      
+        
+    
+        <img src="..\..\imagenes\modo\luna.png"  id="modonoche" style="width: 30px;" alt="">
+      
+
+        
+       </button>
+    </li>
+     
+      
+    
+  </ul>
+
+</div>
+</nav>
+
+
+<!--   -->
+
+
+
+
+<!--  Catalogo     -->
+
+
+
+<div id="catalogo" class="container-fluid" >
+
+  
+
+  <div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+      <div class="col-3">
+        <div class="doc" style="">
+          <div class="box">
+            <img style="width: 250px;" src="..\..\imagenes\brother5650.png"  alt="">
+          </div>
+        </div>
+      </div>
+        
+      <div class="col-9" >
+        <div style="">
+          <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\catalogo\logobrother.png" alt=""> <BR>
+          <b>Modelo: </b>  DCP-L5650DN  <br> 
+          
+          <b>Descripcion: </b>  La DCP-L5650DN de Brother es una copiadora multifuncional láser monocromática ideal para imprimir en alto volumen y reducir costos operativos. Reduzca costos de impresión con el cartucho de tóner de reemplazo de alto rendimiento y aumente la productividad en la oficina con una velocidad de impresión de 42 ppm
+          </p> 
+          
+            
+        </div>
+      </div>
+      
+  
+    
+  </div>
+
+  
+  
+
+  <div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+    <div class="col-3">
+      <div class="doc" style="">
+        <div class="box">
+          <img style="width: 300px;" src="..\..\imagenes\lexmark517corregida.png"  alt="">
+        </div>
+      </div>
+    </div>
+      
+    <div class="col-9" >
+      <div style="">
+        <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\logolexmark.png" alt=""> <BR>
+        <b>Modelo: </b>  MX-517 <br> 
+        
+        <b>Descripcion: </b> El multifunción MX517 combina
+        impresión, copia, digitalización y fax
+        en un único dispositivo versátil. Con
+        una capacidad de entrada disponible
+        de hasta 2000 hojas y velocidad
+        de impresión y copia de hasta 42
+        páginas por minuto, sus documentos
+        se procesan rápidamente. . Cuenta con pantalla
+        táctil color de 4,3 pulgadas y teclado
+        numérico para simplificar las tareas,
+        impresión y copia a doble cara, 
+        </p> 
+        
+          
+      </div>
+    </div>
+    
+
+  
+</div>
+
+
+<div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+  <div class="col-3">
+    <div class="doc" style="">
+      <div class="box">
+        <img style="width: 220px;" src="..\..\imagenes\catalogo\toshibadef.png"  alt="">
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-9" >
+    <div style="">
+      <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\logotoshiba.png" alt=""> <BR>
+      <b>Modelo: </b>  E-studio 457  <br> 
+      
+      <b>Descripcion: </b>  
+      Gracias a una velocidad de impresión de hasta 45 ppm, la nueva serie de Toshiba e-STUDIO 457 es ideal para entornos con necesidades potentes. Gracias a las diferentes entradas de papel opcionales y un alimentador de gran capacidad, permiten una capacidad máxima de papel de hasta 3.200 hojas. La impresión a doble cara y el uso de tamaños de papel desde A5R hasta A3, aumenta más si cabe su productividad, al mismo tiempo que permite economizar papel y reducir costes. 
+      </p> 
+      
+        
+    </div>
+  </div>
+  
+
+
+</div>
+ 
+
+
+</div>
+
+<div style="padding:25px"><h3>Si desea consultar stock y precios, a continuacion seleccione el modelo deseado</h3>
+  <form action="mailto:fedebarreirob1998@gmail.com?subject=Consulta%20de%20stock"  method="post" enctype="text/plain">
+    <select style="width: 50%;" name="Consulta stock modelo" id="inputState" class="form-control">
+      <option selected>Modelos...</option>
+      <option value="Brother DCP-L5650DN">Brother DCP-L5650DN</option>
+      <option value="Lexmark MX-517">Lexmark MX-517</option>
+      <option value="Toshiba E-studio 457">Toshiba E-studio 457</option>
+    </select>
+    <input style="margin-top: 25px;" type="submit" class="btn btn-dark">
+
+  </form>
+ 
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div style="text-align: center;"> <h6> <b>Envianos un mail : <a href="mailto:copitecnicasf@gmail.com"> <img src="https://img.icons8.com/color/48/000000/gmail.png"/> </a> </b> <br> <b>Seguinos en Facebook! :</b>   <a href="https://www.facebook.com/copitecnicadigital" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a> </div> </h6>
+<br>
+  <!-- Copyright -->
+  <div><h6 style="text-align: center;">Web Copitecnica <br> Derechos reservados ® Federico Barreiro</h6></div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

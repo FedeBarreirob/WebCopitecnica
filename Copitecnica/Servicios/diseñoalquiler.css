@@ -1,0 +1,121 @@
+
+body{
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    margin:0;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif !important;
+    color: black;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    font-size: 2vh;
+}
+label{
+    font-weight: bolder;
+    font-size: 18px;
+}
+/* Estilo barra de navegacion */
+#brand-image{
+    
+    
+}
+.barra nav div ul li{
+   
+    font-size: 25px;
+}
+.navbar{
+    border-bottom: 5px solid #915a5d; 
+    
+ }
+.navbar  ul li{
+    align-items: center;
+    color: black;
+   
+}
+.navbar ul a {
+    
+    color: black;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+.navbar ul li div a{
+
+z-index: 100;
+}
+.navbar ul li div a:active{
+    background-color:  #915a5d;
+}
+.navbar ul div{
+  
+    
+   
+}
+.navbar ul{
+   
+}
+.navbar ul div a{
+  
+  
+  
+}
+.navbar ul li:hover > div {
+    display:block;
+    z-index: 100;
+   
+}
+.barra nav ul li ul li {
+    text-decoration: none;
+}
+
+
+/* Seccion alquiler */
+
+#servicio{
+   
+    border-radius: 50px;
+    border: 5px solid #915a5d;
+    
+}
+
+#alquiler{
+   color: black;
+}
+#contenedorImagenes{
+    
+    
+    
+}
+.imagenes{
+    width: 18em;
+    margin-top: 35px;
+    border-bottom: 3px solid #915a5d;
+    border-top: 3px solid #915a5d;
+    border-left: 3px solid #915a5d;
+    border-right: 3px solid #915a5d;
+    border-radius: 50px;
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+#descr{
+    
+    margin-top: 30px;
+}
+
+/* Rellenar formulario */
+#aqui{
+    
+}
+#formulario input{
+    width: 50%;
+}
+
