@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+}
+/* Estilo barra de navegacion */
+
+/* catalogo */
+
+#catalogo{
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    
+}
+#futer{
+    margin-top: 25px;
+   margin-left: 50%;
+   background-color: blue;
+   height: 100%;
+}

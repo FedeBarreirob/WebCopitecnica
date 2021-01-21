@@ -1,0 +1,30 @@
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contieneForm{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+    padding: 50px;
+}
+.estiloinput{
+    margin: 15px;
+    width: 30vw;
+    
+}
+#botonAceptar{
+    margin-top: 25px;
+    background: rgb(216, 126, 126);
+   border: 1px solid #b63329;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding: 5px;
+}
+label{
+    display: inline-block;
+    width: 200px;
+}

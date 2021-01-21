@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Inconsolata&display=swap');
+    *{
+      font-family: 'DM Sans', sans-serif !important;
+    }
+    </style>
+    <link rel="stylesheet" href="..\..\diseño.css">
+    <link rel="stylesheet" href="estiloimpresora.css">
+    <!-- bootstrap--> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    
+<!-- Barra de navegacion  -->
+
+<nav  class="navbar navbar-expand-lg  ">
+   
+  <a class="navbar-brand" href="#"  ><img src="..\..\imagenes\nuevodiarecort.png"   id="imgdia"  alt=""> 
+    <img src="..\..\imagenes\nuevonocherecort.png" id="imgnocturna" style="display: none;" alt="">
+    </a>
+
+
+<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav  ml-auto" >
+    <li class="nav-item active">
+      <a class="nav-link" href="..\..\principal.html">Inicio </a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="..\..\Servicios\alquiler.html">Servicio</a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Productos
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="\..\Productos\IMPRESORAS\impresoras.html">Impresoras</a>
+        <a class="dropdown-item" href="..\Productos\Copiadoras\copiadoras.html">Multifunciones</a>
+        
+      </div>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link " href="..\..\Contacto\contacto.html">Contacto</a>
+    </li>
+    
+    <li class="nav-item active">
+      <button id="botonTema" style="font-size: 20px;background: transparent;border: 0;" onclick="cambiarModo();cambiarImagen()" >
+       
+        <img src="..\..\imagenes\modo\dom.png" id="mododia" style="width: 30px;display: none;" alt="">
+      
+        
+    
+        <img src="..\..\imagenes\modo\luna.png"  id="modonoche" style="width: 30px;" alt="">
+      
+
+        
+       </button>
+    </li>
+     
+      
+    
+  </ul>
+
+</div>
+</nav>
+
+
+<!--   -->
+
+
+<!--  Catalogo     -->
+
+
+
+<div id="catalogo" class="container-fluid" >
+
+  <div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+      <div class="col-3">
+        <div class="doc" style="">
+          <div class="box">
+            <img style="width: 250px;height: auto;" class="img-fluid" src="..\..\imagenes\catalogo\lexmarkmssinfondo.png"  alt="">
+          </div>
+        </div>
+      </div>
+        
+      <div class="col-9" >
+        <div style="">
+          <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\logolexmark.png" alt=""> <BR>
+          <b>Modelo: </b>  MS510DN  <br> 
+          
+          <b>Descripcion: </b>  La impresora láser Lexmark MS510dn, con funciones de red,  dispone de impresión a doble cara integrada, un procesador Dual Core a 800 MHz, 256 MB de memoria estándar,entrada estándar de 350 hojas y una velocidad de impresión de hasta 42 ppm.  
+          </p> 
+          
+            
+        </div>
+      </div>
+      
+  
+    
+  </div>
+
+  
+  
+
+  <div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+    <div class="col-3">
+      <div class="doc" style="">
+        <div class="box">
+          <img style="width: 300px;height: auto;" class="img-fluid" src=" ..\..\imagenes\catalogo\canonsinfondo.png"  alt="">
+        </div>
+      </div>
+    </div>
+      
+    <div class="col-9" >
+      <div style="">
+        <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\logocanon.jpg" alt=""> <BR>
+        <b>Modelo: </b>  LBP6030w <br> 
+        
+        <b>Descripcion: </b>La imageCLASS LBP6030w es una impresora láser inalámbrica en blanco y negro, ideal tanto para la impresión en casa como en oficinas pequeñas.
+        La LBP6030w es fácil de usar y su diseño compacto es perfecto para los espacios reducidos.Con velocidades de entrega de
+         la primera impresión de menos de 8 segundos y de impresión de hasta 19 páginas por minuto. 
+        </p> 
+        
+          
+      </div>
+    </div>
+    
+
+  
+</div>
+
+
+<div class="row" style="margin:50px;border: 5px solid #915a5d;padding: 50px;">
+   
+    
+  <div class="col-3">
+    <div class="doc" style="">
+      <div class="box">
+        <img style="width: 300px;height: auto;" class="img-fluid" src="..\..\imagenes\catalogo\brothersinfondo.png"  alt="">
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-9" >
+    <div style="">
+      <p style="font-size: 25px;" ><b>Marca: </b>  <img style="width: 120px;margin-left: 25px;margin-top: -25px;" src="..\..\imagenes\catalogo\logobrother.png" alt=""> <BR>
+      <b>Modelo: </b> HL-L5100DN  <br> 
+      
+      <b>Descripcion: </b>  
+      La impresora láser HL-L5100DN es fácil de usar y está recomendada para entornos con uno o más usuarios, con necesidades totales 
+      de impresión hasta 3500 páginas al mes. Imprime en blanco y negro a una velocidad de hasta 40 páginas por minuto,
+       tiene una memoria de 256 MB y un procesador de 
+      800 MHz que  permite tratar los datos recibidos de forma rápida y eficiente. 
+      </p> 
+      
+        
+    </div>
+  </div>
+  
+
+
+</div>
+ 
+
+</div>
+
+
+
+
+<div style="padding:25px"><h3>Si desea consultar stock y precios, a continuacion seleccione el modelo deseado</h3>
+  <form action="mailto:fedebarreirob1998@gmail.com?subject=Consulta%20de%20stock"  method="post" enctype="text/plain">
+    <select style="width: 50%;" name="Consulta stock modelo" id="inputState" class="form-control">
+      <option selected>Modelos...</option>
+      <option value="Lexmark MS510DN">Lexmark MS510DN</option>
+      <option value="Canon LBP6030w">Canon LBP6030w</option>
+      <option value="Brother HL-L5100DN">Brother HL-L5100DN</option>
+    </select>
+    <input style="margin-top: 25px;" type="submit" class="btn btn-dark">
+
+  </form>
+ 
+</div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div style="text-align: center;"> <h6> <b>Envianos un mail : <a href="mailto:copitecnicasf@gmail.com"> <img src="https://img.icons8.com/color/48/000000/gmail.png"/> </a> </b> <br> <b>Seguinos en Facebook! :</b>   <a href="https://www.facebook.com/copitecnicadigital" target="_blank"><img alt="Siguenos en Facebook" src="https://lh3.googleusercontent.com/-NSLbC_ztNls/T6VX0g6z8AI/AAAAAAAAA0A/_vyIBrmZbuY/s48/facebook48.png" width=48 height=48  /></a> </div> </h6>
+  <br>
+    <!-- Copyright -->
+    <div><h6 style="text-align: center;">Web Copitecnica <br> Derechos reservados ® Federico Barreiro</h6></div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</body>
+
+<script src="..\..\codigo.js"></script>
+</html>
