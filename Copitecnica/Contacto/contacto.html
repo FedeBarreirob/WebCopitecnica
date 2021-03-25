@@ -22,39 +22,53 @@
 </head>
 <body>
 
-    <div class="barra">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href=""><img id="brand-image"  src="..\imagenes\logoreal.jpg" alt=""> </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ml-auto" >
-              <li class="nav-item active">
-                <a class="nav-link" href="..\principal.html">Inicio </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="..\Servicios\alquiler.html">Servicio</a>
-              </li>
-              <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Productos
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="..\Productos\IMPRESORAS\impresoras.html">Impresoras</a>
-                  <a class="dropdown-item" href="..\Productos\Copiadoras\copiadoras.html">Multifunciones</a>
-                  
-                </div>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link " href="..\Contacto\contacto.html">Contacto</a>
-              </li>
-            </ul>
-            
-          </div>
-        </nav>
-      </div>
+  <nav  class="navbar navbar-expand-lg  ">
+   
+    <a class="navbar-brand" href="#"  ><img src="..\imagenes\nuevodiarecort.png"   id="imgdia"  alt=""> 
+      <img src="..\imagenes\nuevonocherecort.png" id="imgnocturna" style="display: none;" alt="">
+      </a>
+ 
+  <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav  ml-auto" >
+      <li class="nav-item active">
+        <a class="nav-link" href="..\principal.html">Inicio </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="..\Servicios\alquiler.html">Servicio</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="..\Productos\IMPRESORAS\impresoras.html">Impresoras</a>
+          <a class="dropdown-item" href="..\Productos\Copiadoras\copiadoras.html">Multifunciones</a>
+          
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="..\Contacto\contacto.html">Contacto</a>
+      </li>
+      
+      <li class="nav-item active">
+        <button id="botonTema" style="font-size: 20px;background: transparent;border: 0;" onclick="cambiarModo();cambiarImagen();cambiarlogo()" >
+         
+          <img src="..\imagenes\modo\dom.png" id="mododia" style="width: 30px;display: none;" alt="">     
+      
+          <img src="..\imagenes\modo\luna.png"  id="modonoche" style="width: 30px;" alt="">
+          
+         </button>
+      </li>
+ 
+      
+    </ul>
+ 
+  </div>
+</nav>
         
 
       

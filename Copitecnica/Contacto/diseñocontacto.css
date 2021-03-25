@@ -10,27 +10,21 @@ body{
    
 }
 
-/* Barra de navegacion*/
-.barra{
-    border-bottom: 5px solid #915a5d; 
-}
+/* Estilo barra de navegacion */
 #brand-image{
     height: 50px;
     
 }
-.barra nav div ul li{
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 25px;
-}
+
 .navbar{
-   
+    border-bottom: 5px solid #915a5d; 
     position: relative;
  }
 .navbar  ul li{
     align-items: center;
     color: black;
     position:relative;
+    margin-left: 25px;
 }
 .navbar ul a {
     display:block;
@@ -56,18 +50,15 @@ z-index: 100;
     left:0;
     padding:0;
 }
-.navbar ul{
-   
-}
+
 .navbar ul div a{
     float: none;
-   background-color: white;
   
 }
 .navbar ul li:hover > div {
     display:block;
     z-index: 100;
-    background-color: white;
+   
 }
 .barra nav ul li ul li {
     text-decoration: none;
