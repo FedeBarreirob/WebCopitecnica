@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloCuenta.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+       <!-- bootstrap--> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    
+</head>
+<body>
+    <nav  class="navbar navbar-expand-lg  ">
+   
+        <a class="navbar-brand" href="#"  ><img src="..\imagenes\nuevodiarecort.png"   id="imgdia"  alt=""> 
+          <img src="..\imagenes\nuevonocherecort.png" id="imgnocturna" style="display: none;" alt="">
+          </a>
+     
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  ml-auto" >
+          <li class="nav-item active">
+            <a class="nav-link" href="..\principal.html">Inicio </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="..\Servicios\alquiler.html">Servicio</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="..\Productos\IMPRESORAS\impresoras.html">Impresoras</a>
+              <a class="dropdown-item" href="..\Productos\Copiadoras\copiadoras.html">Multifunciones</a>
+              
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="..\Contacto\contacto.html">Contacto</a>
+          </li>
+          
+          <li class="nav-item active">
+            <button id="botonTema" style="font-size: 20px;background: transparent;border: 0;" onclick="cambiarModo();cambiarImagen();cambiarlogo()" >
+             
+              <img src="..\imagenes\modo\dom.png" id="mododia" style="width: 30px;display: none;" alt="">     
+          
+              <img src="..\imagenes\modo\luna.png"  id="modonoche" style="width: 30px;" alt="">
+              
+             </button>
+          </li>
+     
+          
+        </ul>
+     
+      </div>
+    </nav>
+    <div>
+   
+        <div class="form">
+      
+            <ul class="tab-group">
+              <li class="tab active"><a href="#signup">Registrarse</a></li>
+              <li class="tab"><a href="#login">Iniciar Sesión</a></li>
+            </ul>
+            
+            <div class="tab-content">
+              <div id="signup">   
+                <h1>Registrate</h1>
+                
+                <form method="post">
+                
+                <div class="field-wrap">
+                  <div class="field-wrap">
+                    <label>
+                      Usuario<span class="req">*</span>
+                    </label>
+                    <input type="text" name="name" required autocomplete="off" />
+                  </div>
+              
+                
+                </div>
+      
+                <div class="field-wrap">
+                  <label>
+                    Email<span class="req">*</span>
+                  </label>
+                  <input type="email" name="email" required autocomplete="off"/>
+                </div>
+                
+                <div class="field-wrap">
+                  <label>
+                    Contraseña<span class="req">*</span>
+                  </label>
+                  <input type="password" name="clave" required autocomplete="off"/>
+                </div>
+                
+                <input type="submit" name="register"> 
+                
+                </form>
+      
+              </div>
+              
+              <div id="login">   
+                <h1>Bienvenido!</h1>
+                
+                <form method="post">
+                
+                  <div class="field-wrap">
+                  <label>
+                    Nombre <span class="req">*</span>
+                  </label>
+                  <input name="usuario" required autocomplete="off"/>
+                </div>
+                
+                <div class="field-wrap">
+                  <label>
+                    Contraseña<span class="req">*</span>
+                  </label>
+                  <input name="contrasenia" type="password"required autocomplete="off"/>
+                </div>
+                
+                <p class="forgot"><a href="#">Olvidó su contraseña?</a></p>
+                
+                <input type="submit" name="logearse">
+                
+                </form>
+      
+              </div>
+              
+            </div><!-- tab-content -->
+            
+      </div> <!-- /form -->
+  
+    </div>
+?>
+    <?php 
+    include("registrar.php")
+    ?>
+</body>
+</html>
+<script src="codigo.js"></script>
